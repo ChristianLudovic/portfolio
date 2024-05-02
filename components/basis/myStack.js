@@ -1,8 +1,17 @@
+import Image from 'next/image';
+import nextjs from '@/public/logos/nextjs.svg';
+import reactjs from '@/public/logos/reactjs.svg';
+import prisma from '@/public/logos/prisma.svg';
+import expressjs from '@/public/logos/expressjs.svg';
+import tailwind from '@/public/logos/tailwind.svg';
+import javascript from '@/public/logos/javascript.svg';
+
+
 export default function MyStack() {
     return (
         <>
-            <div>
-                <div className="flex gap-">
+            <div className=' flex flex-col gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max'>
+                <div className="flex gap-3 items-center">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <g clip-path="url(#clip0_250_1167)">
@@ -16,7 +25,19 @@ export default function MyStack() {
                             </defs>
                         </svg>
                     </div>
-                    <h2>Ma Stack Technique</h2>
+                    <h2 className='font-bold'>Ma Stack Technique</h2>
+                </div>
+                <p className='w-[480px] text-sm'>J'écoute de la musique quand je travaille pour me concentrer, me détendre et
+                    me mettre dans la zone. Quand je code, j'ai une playlist Spotify parfaite pour
+                    cela.
+                </p>
+                <div className='flex items-center gap-3'>
+                    <Image src={nextjs} alt="next js logo"/>
+                    <Image src={reactjs} alt="react js logo"/>
+                    <Image src={prisma} alt="prisma logo"/>
+                    <Image src={expressjs} alt="express js logo"/>
+                    <Image src={tailwind} alt="tailwind css logo"/>
+                    <Image src={javascript} alt="javascript logo"/>
                 </div>
             </div>
         </>

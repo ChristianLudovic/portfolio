@@ -1,7 +1,13 @@
 import { Inter } from "next/font/google";
+import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const ibmPlexSans = IBM_Plex_Sans({ 
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
+  display: "swap",
+ });
 
 export const metadata = {
   title: "ChrisFacile_Dev",
@@ -11,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={ibmPlexSans.className}>{children}</body>
     </html>
   );
 }
