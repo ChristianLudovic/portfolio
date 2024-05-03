@@ -4,7 +4,7 @@ import ejaraLogo from '@/public/logos/ejara.png'
 export default function Experience (){
     return(
         <>
-            <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200 rounded-xl w-max">
+            <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200 rounded-xl w-max max-lg:w-full">
                 <div className="flex items-center gap-3">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -15,11 +15,11 @@ export default function Experience (){
                     <h2 className='font-bold'>Experiences</h2>
                 </div>
                 <div className="flex flex-col gap-4">
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 max-xl:w-[390px]'">
                         <Image src={ejaraLogo} alt="logo de ejara" />
-                        <div className="flex flex-col gap-1">
+                        <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px]">
                             <h3>Ejara</h3>
-                            <div className="flex items-center justify-between w-[424px] text-sm">
+                            <div className="flex items-center justify-between w-full text-sm">
                                 <p>Product Designer Junior</p>
                                 <p>Fév 2023 — Aujourd'hui</p>
                             </div>
@@ -29,7 +29,7 @@ export default function Experience (){
                         <Image src={ejaraLogo} alt="logo de ejara" />
                         <div className="flex flex-col gap-1">
                             <h3>Ejara</h3>
-                            <div className="flex items-center justify-between w-[424px] text-sm">
+                            <div className="flex items-center justify-between max-w-[424px] text-sm">
                                 <p>Product Designer Junior</p>
                                 <p>Fév 2023 — Aujourd'hui</p>
                             </div>
@@ -37,7 +37,7 @@ export default function Experience (){
                     </div>
                 </div>
                 <button 
-                    className='w-[477px] h-[40px] font-semibold rounded-sm'
+                    className='w-[477px] h-[40px] font-semibold rounded-sm max-xl:w-[390px]'
                     style={{
                         color: "#8349FF",
                         backgroundColor: "#F5F1FE"

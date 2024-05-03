@@ -6,7 +6,9 @@ import MyStack from "@/components/basis/myStack";
 import NavBar from "@/components/basis/navBar";
 import Playlist from "@/components/basis/playlist";
 import EductionSection from "@/components/layouts/education";
+import Footer from "@/components/layouts/footer";
 import HeroSection from "@/components/layouts/heroSection";
+import ProjectSection from "@/components/layouts/projectSection";
 import StackExperiencePlaylistSection from "@/components/layouts/stackExperiencePlaylistSection";
 import Image from "next/image";
 
@@ -17,7 +19,10 @@ export default function Home() {
       <HeroSection />
       <HorizontalDivider />
       <EductionSection />
+      <ProjectSection />
+      <HorizontalDivider />
       <StackExperiencePlaylistSection />
+      <Footer />
     </>
   );
 }

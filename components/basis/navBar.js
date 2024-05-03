@@ -5,7 +5,7 @@ export default function NavBar (){
     return(
         <>
             <div className="px-6 pt-11">
-                <div className="flex justify-between items-center max-w-[1180px] mx-auto">
+                <div className="flex justify-between items-center max-w-[1180px] mx-auto max-xl:max-w-[900px]">
                     <div 
                         className="flex items-center justify-center rounded-full border-2 w-[44px] h-[44px] border-solid"
                         style={{

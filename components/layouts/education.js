@@ -6,7 +6,7 @@ export default function EductionSection(){
     return (
         <>
             <div className="px-6 py-16">
-                <div className="flex flex-col items-start max-w-[1180px] mx-auto gap-6">
+                <div className="flex flex-col items-start max-w-[1180px] mx-auto gap-6 max-xl:max-w-[900px]">
                     <div className='flex flex-col gap-4 items-start'>
                         <div className="flex items-center justify-center">
                             <Image src={educationIcon} alt="education icon"/>

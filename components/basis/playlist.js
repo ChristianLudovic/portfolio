@@ -1,7 +1,7 @@
 export default function Playlist() {
     return (
         <>
-            <div className="flex flex-col gap-6 gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max">
+            <div className="flex flex-col gap-6 gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max max-xl:w-full">
                 <div className="flex items-center gap-3">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -11,7 +11,7 @@ export default function Playlist() {
                     </div>
                     <h2>Ma Playlist</h2>
                 </div>
-                <p className='w-[485px] text-sm'>
+                <p className='w-[485px] text-sm '>
                     J'écoute de la musique quand je travaille pour me concentrer, me détendre et
                     me mettre dans la zone. Quand je code, j'ai une playlist Spotify parfaite pour
                     cela.
@@ -20,7 +20,7 @@ export default function Playlist() {
                     style = {{
                         borderRadius: "12px"
                     }}
-                    className="w-[564px]"
+                    className="w-[564px] max-xl:w-full"
                     src="https://open.spotify.com/embed/playlist/45FT6uGyOpQCgNaqMNSB1I?utm_source=generator&theme=0" 
                     height="352" 
                     frameBorder="0" 

@@ -10,7 +10,7 @@ import javascript from '@/public/logos/javascript.svg';
 export default function MyStack() {
     return (
         <>
-            <div className=' flex flex-col gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max'>
+            <div className=' flex flex-col gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max max-lg:w-full'>
                 <div className="flex gap-3 items-center">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -27,7 +27,7 @@ export default function MyStack() {
                     </div>
                     <h2 className='font-bold'>Ma Stack Technique</h2>
                 </div>
-                <p className='w-[480px] text-sm'>J'écoute de la musique quand je travaille pour me concentrer, me détendre et
+                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>J'écoute de la musique quand je travaille pour me concentrer, me détendre et
                     me mettre dans la zone. Quand je code, j'ai une playlist Spotify parfaite pour
                     cela.
                 </p>
