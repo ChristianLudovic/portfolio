@@ -4,6 +4,11 @@ import GlomLogo from '@/public/logos/glom.png'
 import freelanceLogo from '@/public/logos/freelance.svg'
 
 export default function Experience (){
+
+    const mailTo = () => {
+        window.open('mailto:talchrist10@gmail.com')
+    }
+
     return(
         <>
             <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200  w-max rounded-xl max-lg:w-full">
@@ -54,7 +59,7 @@ export default function Experience (){
                     style={{
                         color: "#8349FF",
                         backgroundColor: "#F5F1FE"
-                    }}
+                    }} onClick={mailTo}
                 > Avez vous une mission?</button>
             </div>
         </>

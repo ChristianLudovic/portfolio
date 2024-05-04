@@ -17,16 +17,15 @@ export default function EductionSection(){
                             <Image src={educationIcon} alt="education icon"/>
                         </div>
                         <div className='flex gap-7 max-sm:flex-col max-sm:gap-6'>
-                            <p className='max-w-[382px]'>Je suis actuellement un pacours de 4 ans en ecole d'ingenieur en genie logiciel a {'l\''}
+                            <p className='max-w-[382px]'>Je suis actuellement un pacours de 4 ans en ecole {'d\'ingenieur'} en genie logiciel a {'l\''}
                             <span className='font-semibold'> Universite Technologique de Gumushane</span>.
                             </p>
-                            <p className='max-w-[382px]'>J'ai obtenu un Diplome universitaire de Technologie (DUT) en Automatisme et Informatique Industrielle a {'l\''}
+                            <p className='max-w-[382px]'>{'J\'ai'} obtenu un Diplome universitaire de Technologie (DUT) en Automatisme et Informatique Industrielle a {'l\''}
                             <span className='font-semibold' onClick={redirectBadjoun}> IUT Fotso Victor</span> a Bandjoun (Cameroun).
                             </p>
                         </div>
                     </div>
                     
-                    <p>Plus de details ici :<Link legacyBehavior href='/'><a className='no-underline' style={{color: "#8349FF"}}> mon CV</a></Link>.</p>
                 </div>
             </div>
         </>

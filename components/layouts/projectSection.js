@@ -2,7 +2,8 @@ import Image from 'next/image'
 import Badge from '../basis/badge'
 import subscribe from '@/public/pojects_images/subscribe.svg'
 import linkify from '@/public/pojects_images/linkify.svg'
-import to_do from '@/public/pojects_images/to_do.svg'   
+import to_do from '@/public/pojects_images/to_do.svg'  
+import portfolio from '@/public/pojects_images/portfolio.svg' 
 
 
 export default function ProjectSection(){
@@ -10,6 +11,12 @@ export default function ProjectSection(){
     const redirectLinkify = () => {
         window.open('https://linkiify.netlify.app', '_blank')
     }
+
+    const redirectPortfolio = () => {   
+        window.open('http://christfaciledev.me', '_blank')
+    }
+
+    
 
     return(
         <>
@@ -87,7 +94,7 @@ export default function ProjectSection(){
                                         </div>
                                         <div className='flex flex-col gap-1'>
                                             <p className='text-sm ' style={{color: '#A1A1AA'}}>Next.js</p>
-                                            <h2 className='font-bold text-base text-white'>to-do</h2>
+                                            <h2 className='font-semibold text-base text-white'>to-do</h2>
                                         </div>
                                     </div>
                                     <p className='max-w-[241.25px] text-sm' style={{color: '#D4D4D8'}}>Outil de gestion de tâches simple et efficace pour les personnes qui veulent organiser leur journée.</p>
@@ -100,26 +107,24 @@ export default function ProjectSection(){
                                     </svg>
                                 </div>
                             </div>
-                            <div className='flex items-start gap-6 border border-solid border-stone-200 rounded-xl w-max pt-[24px] pr-[46px] pb-[21px] pl-[24px] max-xl:pr-[24px] max-lg:w-full max-md:p-[12px] ' >
-                                <Image src={subscribe} alt='subscribe image'  
+                            <div className='flex items-start gap-6 border border-solid border-stone-200 rounded-xl w-max pt-[24px] pr-[46px] pb-[21px] pl-[24px] max-xl:pr-[24px] max-lg:w-full max-md:p-[12px] cursor-pointer' onClick={redirectPortfolio} style={{backgroundColor: '#18181B'}}>
+                                <Image src={portfolio} alt='portfolio image'  
                                     className='border border-solid border-stone-200 rounded-lg max-sm:w-[140px] max-sm:h-[160px] max-sm:object-cover'
                                 />
                                 <div className='flex flex-col gap-6'>
                                     <div className='flex flex-col gap-3'>
                                         
-                                        <div className='flex items-center gap-2 rounded-full border border-solid border-stone-200 px-2 py-1 w-max' style={{backgroundColor: "#F6F6F7"}}>
+                                        <div className='flex items-center gap-2 rounded-full border border-solid border-stone-200 px-2 py-1 w-max' style={{backgroundColor: "#262629", borderColor: '#3F3F43'}}>
                                             <div className='w-2 h-2 rounded-full' style={{backgroundColor: '#EAB308'}}></div>
-                                            <span className='text-xs font-semibold'>Open Source</span>
+                                            <span className='text-xs font-semibold text-white'>Open Source</span>
                                         </div>
                                         <div className='flex flex-col gap-1'>
-                                            <p className='text-sm '>React, Tailwindcss, Lavarel</p>
-                                            <h2 className='font-bold text-base'>SubScribe</h2>
+                                            <p className='text-sm ' style={{color: '#A1A1AA'}}>Next.js, Tailwindcss</p>
+                                            <h2 className='font-semibold text-base text-white'>Mon Portfolio</h2>
                                         </div>
                                     </div>
-                                    <p className='max-w-[241.25px] text-sm'>Développement {'d\'un'} Headless CMS e-
-                                        commerce avec Laravel pour créer et
-                                        administrer un site e-commerce.
-                                    </p>
+                                    <p className='max-w-[241.25px] text-sm' style={{color: '#D4D4D8'}}>Conception et integration de mon portfolio personnel. Il me permet de presenter mes projets et mes experiences.</p>
+                                    
                                     
                                 </div>
                                 <div className='flex items-center justify-center max-lg:hidden'>
