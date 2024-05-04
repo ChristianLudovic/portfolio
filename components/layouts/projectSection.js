@@ -17,7 +17,7 @@ export default function ProjectSection(){
                 <div className='max-w-[1180px] mx-auto flex flex-col gap-8 max-xl:max-w-[900px] max-lg:max-w-[700px]'>
                     <div className="flex flex-col gap-2">
                         <h1 className='text-2xl font-bold'>Mes projets</h1>
-                        <p>Ici, je présente quelques projets que j'ai réalisés ou auxquels j'ai participé</p>
+                        <p>Ici, je présente quelques projets que {'j\'ai'} réalisés ou auxquels {'j\'ai'} participé</p>
                     </div>
                     <div className='flex flex-col gap-8'>
                         <div className='flex justify-between max-xl:gap-4 max-lg:flex-col'>
@@ -62,7 +62,7 @@ export default function ProjectSection(){
                                             <h2 className='font-bold text-base'>linkify</h2>
                                         </div>
                                     </div>
-                                    <p className='max-w-[241.25px] text-sm'> Conception et developpement d'un site qui me permet de partager les liens de streaming du sport (football, nba) a mes potes.
+                                    <p className='max-w-[241.25px] text-sm'> Conception et developpement {'d\'un'} site qui me permet de partager les liens de streaming du sport (football, nba) a mes potes.
                                     </p>
                                     
                                 </div>
@@ -116,7 +116,7 @@ export default function ProjectSection(){
                                             <h2 className='font-bold text-base'>SubScribe</h2>
                                         </div>
                                     </div>
-                                    <p className='max-w-[241.25px] text-sm'>Développement d'un Headless CMS e-
+                                    <p className='max-w-[241.25px] text-sm'>Développement {'d\'un'} Headless CMS e-
                                         commerce avec Laravel pour créer et
                                         administrer un site e-commerce.
                                     </p>

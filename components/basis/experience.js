@@ -23,7 +23,7 @@ export default function Experience (){
                             <h3 className='font-medium'>Freelance Frontend Developpeur et UI/UX Designer</h3>
                             <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
                                 <p>Frontend Junior & Designer</p>
-                                <p>Mai 2023 - Aujourd'hui</p>
+                                <p>Mai 2023 - {'Aujourd\'hui'}</p>
                             </div>
                         </div>
                     </div>

@@ -27,7 +27,7 @@ export default function MyStack() {
                     </div>
                     <h2 className='font-bold'>Mes Competences Techniques</h2>
                 </div>
-                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>Avec le temps j'ai acquis des competences dans differents domaines de la programmation. Voici quelques technologies que j'utilise regulierement.
+                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>Avec le temps {'j\'ai'} acquis des competences dans differents domaines de la programmation. Voici quelques technologies que {'j\'utilise'} regulierement.
                 </p>
                 <div className='flex items-center gap-7 flex-wrap '>
                     <Image src={nextjs} alt="next js logo"/>
