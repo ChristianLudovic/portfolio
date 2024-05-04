@@ -4,11 +4,11 @@ import avatar from "../../public/avatar.svg"
 export default function NavBar (){
 
     const linkdinRedirect = () => {
-        window.open('https://www.linkedin.com/in/christian-ludovic-90381a230/, _blank')
+        window.open('https://www.linkedin.com/in/christian-ludovic-90381a230/', '_blank')
     }
 
     const githubRedirect = () => {
-        window.open('https://github.com/ChristianLudovic, _blank')
+        window.open('https://github.com/ChristianLudovic', '_blank')
     }
 
     return(
