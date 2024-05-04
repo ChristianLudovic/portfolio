@@ -9,12 +9,10 @@ export default function Playlist() {
                             <path d="M22 7.625C22 9.90317 20.1532 11.75 17.875 11.75C17.5691 11.75 17.4162 11.75 17.3369 11.7773C17.1711 11.8345 17.0845 11.9211 17.0273 12.0869C17 12.1662 17 12.2903 17 12.5386V18.875C17 19.7725 16.2725 20.5 15.375 20.5C14.4775 20.5 13.75 19.7725 13.75 18.875V7.625C13.75 5.34683 15.5968 3.5 17.875 3.5C20.1532 3.5 22 5.34683 22 7.625Z" fill="#F4F4F5" fill-opacity="0.1" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h2>Ma Playlist</h2>
+                    <h2 className="font-bold">Ma Playlist</h2>
                 </div>
-                <p className='w-[485px] text-sm '>
-                    J'écoute de la musique quand je travaille pour me concentrer, me détendre et
-                    me mettre dans la zone. Quand je code, j'ai une playlist Spotify parfaite pour
-                    cela.
+                <p className='w-[485px] text-sm max-lg:w-full'>
+                    Je partage avec vous ici ma playlist Spotify. Elle me permet de me concentrer et me faire rester dans le flow pendant mes sessions de codage.
                 </p>
                 <iframe 
                     style = {{

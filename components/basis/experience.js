@@ -1,10 +1,12 @@
 import Image from 'next/image'
-import ejaraLogo from '@/public/logos/ejara.png'
+import ejaraLogo from '@/public/logos/ejara.svg'
+import GlomLogo from '@/public/logos/glom.png'
+import freelanceLogo from '@/public/logos/freelance.svg'
 
 export default function Experience (){
     return(
         <>
-            <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200 rounded-xl w-max max-lg:w-full">
+            <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200  w-max rounded-xl max-lg:w-full">
                 <div className="flex items-center gap-3">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -15,29 +17,40 @@ export default function Experience (){
                     <h2 className='font-bold'>Experiences</h2>
                 </div>
                 <div className="flex flex-col gap-4">
-                    <div className="flex items-center gap-4 max-xl:w-[390px]'">
-                        <Image src={ejaraLogo} alt="logo de ejara" />
-                        <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px]">
-                            <h3>Ejara</h3>
-                            <div className="flex items-center justify-between w-full text-sm">
-                                <p>Product Designer Junior</p>
-                                <p>Fév 2023 — Aujourd'hui</p>
+                    <div className="flex items-center gap-4">
+                        <Image src={freelanceLogo} width={40} height={40} alt="logo freelance " />
+                        <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
+                            <h3 className='font-medium'>Freelance Frontend Developpeur et UI/UX Designer</h3>
+                            <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
+                                <p>Frontend Junior & Designer</p>
+                                <p>Mai 2023 - Aujourd'hui</p>
                             </div>
                         </div>
                     </div>
+                    
                     <div className="flex items-center gap-4">
-                        <Image src={ejaraLogo} alt="logo de ejara" />
-                        <div className="flex flex-col gap-1">
-                            <h3>Ejara</h3>
-                            <div className="flex items-center justify-between max-w-[424px] text-sm">
+                        <Image src={ejaraLogo} width={40} height={40} alt="logo de ejara " />
+                        <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
+                            <h3 className='font-medium'>Ejara Cameroun</h3>
+                            <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
                                 <p>Product Designer Junior</p>
-                                <p>Fév 2023 — Aujourd'hui</p>
+                                <p>Octobre 2022 - Mars 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex items-center gap-4 max-xl:w-[390px]'">
+                        <Image src={GlomLogo} width={40} height={40} alt="logo de ejara" />
+                        <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
+                            <h3 className='font-medium'>Glom Sarl Cameroun</h3>
+                            <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
+                                <p>Web Designer</p>
+                                <p className='text-xs'>Janvier 2022 - Juillet 2023</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <button 
-                    className='w-[477px] h-[40px] font-semibold rounded-sm max-xl:w-[390px]'
+                    className='w-[477px] h-[40px] font-semibold rounded-sm max-xl:w-[390px] max-lg:w-full'
                     style={{
                         color: "#8349FF",
                         backgroundColor: "#F5F1FE"

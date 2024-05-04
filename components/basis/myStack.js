@@ -25,19 +25,18 @@ export default function MyStack() {
                             </defs>
                         </svg>
                     </div>
-                    <h2 className='font-bold'>Ma Stack Technique</h2>
+                    <h2 className='font-bold'>Mes Competences Techniques</h2>
                 </div>
-                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>J'écoute de la musique quand je travaille pour me concentrer, me détendre et
-                    me mettre dans la zone. Quand je code, j'ai une playlist Spotify parfaite pour
-                    cela.
+                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>Avec le temps j'ai acquis des competences dans differents domaines de la programmation. Voici quelques technologies que j'utilise regulierement.
                 </p>
-                <div className='flex items-center gap-3'>
+                <div className='flex items-center gap-7 flex-wrap '>
                     <Image src={nextjs} alt="next js logo"/>
                     <Image src={reactjs} alt="react js logo"/>
                     <Image src={prisma} alt="prisma logo"/>
                     <Image src={expressjs} alt="express js logo"/>
-                    <Image src={tailwind} alt="tailwind css logo"/>
                     <Image src={javascript} alt="javascript logo"/>
+                    <Image src={tailwind} alt="tailwind css logo"/>
+                    
                 </div>
             </div>
         </>
