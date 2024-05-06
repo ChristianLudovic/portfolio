@@ -36,8 +36,9 @@ export default function MyStack() {
                     <Image src={prisma} alt="prisma logo"/>
                     <Image src={expressjs} alt="express js logo"/>
                     <Image src={javascript} alt="javascript logo"/>
-                    <Image src={tailwind} alt="tailwind css logo"/>
                     <Image src={postman} alt ="postman logo"/>
+                    <Image src={tailwind} alt="tailwind css logo"/>
+                    
                 </div>
             </div>
         </>
