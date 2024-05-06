@@ -5,6 +5,7 @@ import prisma from '@/public/logos/prisma.svg';
 import expressjs from '@/public/logos/expressjs.svg';
 import tailwind from '@/public/logos/tailwind.svg';
 import javascript from '@/public/logos/javascript.svg';
+import postman from '@/public/logos/postman.svg';
 
 
 export default function MyStack() {
@@ -36,7 +37,7 @@ export default function MyStack() {
                     <Image src={expressjs} alt="express js logo"/>
                     <Image src={javascript} alt="javascript logo"/>
                     <Image src={tailwind} alt="tailwind css logo"/>
-                    
+                    <Image src={postman} alt ="postman logo"/>
                 </div>
             </div>
         </>
