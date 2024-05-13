@@ -14,7 +14,7 @@ export default function EductionSection(){
                 <div className="flex flex-col items-start max-w-[1180px] mx-auto gap-6 max-xl:max-w-[900px] max-lg:max-w-[700px]">
                     <div className='flex flex-col gap-4 items-start'>
                         <div className="flex items-center justify-center">
-                            <Image src={educationIcon} alt="education icon"/>
+                            <h2 className='text-2xl font-bold'>Mon parcours scolaire</h2>   
                         </div>
                         <div className='flex gap-7 max-sm:flex-col max-sm:gap-6'>
                             <p className='max-w-[382px]'>Je suis actuellement un pacours de 4 ans en ecole {'d\'ingenieur'} en genie logiciel a {'l\''}

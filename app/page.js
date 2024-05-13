@@ -5,6 +5,7 @@ import HorizontalDivider from "@/components/basis/horizontalDivider";
 import MyStack from "@/components/basis/myStack";
 import NavBar from "@/components/basis/navBar";
 import Playlist from "@/components/basis/playlist";
+import CertificationsSection from "@/components/layouts/certifications";
 import EductionSection from "@/components/layouts/education";
 import Footer from "@/components/layouts/footer";
 import HeroSection from "@/components/layouts/heroSection";

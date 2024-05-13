@@ -1,5 +1,5 @@
 import Image from "next/image"
-import avatar from "../../public/avatar.svg"
+import avatar from "../../public/avatar.png"
 
 export default function NavBar (){
 
@@ -21,7 +21,7 @@ export default function NavBar (){
                             borderColor: "#EEEEEE",
                         }}
                     >
-                        <Image src={avatar} alt="my avatar" className="w-[36px] h-[36px] rounded-full"/>
+                        <Image src={avatar} alt="my avatar" className="w-[48px] h-[48px] rounded-full"/>
                     </div>
                     <div className="flex items-flex gap-6">
                         <div className="flex items-center justify-center" onClick={linkdinRedirect}>

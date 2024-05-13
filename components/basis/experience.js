@@ -44,7 +44,7 @@ export default function Experience (){
                         </div>
                     </div>
                     <div className="flex items-center gap-4 max-xl:w-[390px]'">
-                        <Image src={GlomLogo} width={40} height={40} alt="logo de ejara" />
+                        <Image src={GlomLogo} width={40} height={40} alt="logo de glom" />
                         <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
                             <h3 className='font-medium'>Glom Sarl Cameroun</h3>
                             <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
