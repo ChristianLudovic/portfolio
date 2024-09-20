@@ -1,0 +1,10 @@
+{
+    "Scheddo": [
+        {
+        "name": "Scheddo",
+        "description": "This is project 1",
+        "image": "project1.jpg",
+        "tags": "Laravel, Livewire, Alpine.js, TailwindCSS"
+        }
+    ]
+}

@@ -11,7 +11,7 @@ export default function Experience (){
 
     return(
         <>
-            <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200  w-max rounded-xl max-lg:w-full">
+            <div className="flex flex-col gap-6 p-6 border border-solid border border-stone-200  lg:max-w-[520px] w-full rounded-xl">
                 <div className="flex items-center gap-3">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -19,48 +19,34 @@ export default function Experience (){
                             <path d="M3 14.25H9.249C9.733 14.25 10.201 14.248 10.565 14.569L11.342 15.251C11.5238 15.411 11.7578 15.4993 12 15.4993C12.2422 15.4993 12.4762 15.411 12.658 15.251L13.435 14.569C13.799 14.249 14.267 14.25 14.751 14.25H21M8.75 6.5V4.75C8.75 4.21957 8.96071 3.71086 9.33579 3.33579C9.71086 2.96071 10.2196 2.75 10.75 2.75H13.25C13.7804 2.75 14.2891 2.96071 14.6642 3.33579C15.0393 3.71086 15.25 4.21957 15.25 4.75V6.5" stroke="#71717A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h2 className='font-bold'>Experiences</h2>
+                    <h2 className={`font-bold`}>Expériences</h2>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-4">                    
                     <div className="flex items-center gap-4">
-                        <Image src={freelanceLogo} width={40} height={40} alt="logo freelance " />
-                        <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
-                            <h3 className='font-medium'>Freelance Frontend Developpeur et UI/UX Designer</h3>
-                            <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
-                                <p>Frontend Junior & Designer</p>
-                                <p>Mai 2023 - {'Aujourd\'hui'}</p>
-                            </div>
+                        <div className='w-12 h-12 max-sm:w-14 border border-solid border-stone-300 rounded-full flex items-center justify-center bg-white'>
+                            <Image src={ejaraLogo} width={40} height={40} alt="logo de ejara " />
                         </div>
-                    </div>
-                    
-                    <div className="flex items-center gap-4">
-                        <Image src={ejaraLogo} width={40} height={40} alt="logo de ejara " />
                         <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
                             <h3 className='font-medium'>Ejara Cameroun</h3>
                             <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
                                 <p>Product Designer Junior</p>
-                                <p>Octobre 2022 - Mars 2023</p>
+                                <p className='text-gray-400 text-xs'>Octobre 2022 - Mars 2023</p>
                             </div>
                         </div>
                     </div>
                     <div className="flex items-center gap-4 max-xl:w-[390px]'">
-                        <Image src={GlomLogo} width={40} height={40} alt="logo de glom" />
+                        <div className='w-12 h-12 max-sm:w-14 border border-solid border-stone-300 rounded-full flex items-center justify-center bg-white'> 
+                            <Image src={GlomLogo} width={40} height={40} alt="logo de glom" />
+                        </div>
                         <div className="flex flex-col gap-1 w-[424px] max-xl:w-[300px] max-lg:w-full">
                             <h3 className='font-medium'>Glom Sarl Cameroun</h3>
                             <div className="flex items-center justify-between w-full text-xs max-sm:flex-col max-sm:items-start max-sm:gap-1">
                                 <p>Web Designer</p>
-                                <p className='text-xs'>Janvier 2022 - Juillet 2023</p>
+                                <p className='text-xs text-gray-400'>Janvier 2022 - Juillet 2023</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button 
-                    className='w-[477px] h-[40px] font-semibold rounded-sm max-xl:w-[390px] max-lg:w-full'
-                    style={{
-                        color: "#8349FF",
-                        backgroundColor: "#F5F1FE"
-                    }} onClick={mailTo}
-                > Avez vous une mission?</button>
             </div>
         </>
     )

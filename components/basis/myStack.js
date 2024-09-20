@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import nextjs from '@/public/logos/nextjs.svg';
 import reactjs from '@/public/logos/reactjs.svg';
-import prisma from '@/public/logos/prisma.svg';
-import expressjs from '@/public/logos/expressjs.svg';
-import tailwind from '@/public/logos/tailwind.svg';
-import javascript from '@/public/logos/javascript.svg';
-import postman from '@/public/logos/postman.svg';
+import alpine from '@/public/logos/alpinejs.svg';
+import tailwind from '@/public/logos/tailwindcss.svg';
+import laravel from '@/public/logos/laravel.svg';
+import livewire from '@/public/logos/livewire.svg';
+import shopify from '@/public/logos/shopify.svg';
 
 
 export default function MyStack() {
     return (
         <>
-            <div className=' flex flex-col gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max max-lg:w-full'>
+            <div className=' flex flex-col gap-4 p-6 border border-solid border border-stone-200 rounded-xl lg:max-w-[520px] w-full'>
                 <div className="flex gap-3 items-center">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -26,18 +26,18 @@ export default function MyStack() {
                             </defs>
                         </svg>
                     </div>
-                    <h2 className='font-bold'>Mes Competences Techniques</h2>
+                    <h2 className='font-bold'>Mes compétences techniques.</h2>
                 </div>
-                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>Avec le temps {'j\'ai'} acquis des competences dans differents domaines de la programmation. Voici quelques technologies que {'j\'utilise'} regulierement.
+                <p className='w-[480px] text-sm max-xl:w-[390px] max-lg:w-full'>Avec le temps {'j\'ai'} acquis des compétences dans différents domaines de la programmation. Voici quelques technologies que {'j\'utilise'} régulièrement.
                 </p>
                 <div className='flex items-center gap-7 flex-wrap '>
                     <Image src={nextjs} alt="next js logo"/>
                     <Image src={reactjs} alt="react js logo"/>
-                    <Image src={prisma} alt="prisma logo"/>
-                    <Image src={expressjs} alt="express js logo"/>
-                    <Image src={javascript} alt="javascript logo"/>
-                    <Image src={postman} width={30} height={30} alt ="postman logo"/>
-                    <Image src={tailwind} alt="tailwind css logo"/>
+                    <Image src={tailwind} alt="tailwindcss logo"/>
+                    <Image src={alpine} alt="alpine js logo"/>
+                    <Image src={laravel} alt="laravel logo"/>
+                    <Image src={livewire} alt ="livewire logo"/>
+                    <Image src={shopify} alt="shopify logo"/>
                     
                 </div>
             </div>

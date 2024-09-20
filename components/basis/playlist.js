@@ -1,7 +1,7 @@
 export default function Playlist() {
     return (
         <>
-            <div className="flex flex-col gap-6 gap-4 p-6 border border-solid border border-stone-200 rounded-xl w-max max-xl:w-full">
+            <div className="flex flex-col gap-6 gap-4 p-6 border border-solid border border-stone-200 h-max rounded-xl w-max max-xl:w-full">
                 <div className="flex items-center gap-3">
                     <div className="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -11,14 +11,14 @@ export default function Playlist() {
                     </div>
                     <h2 className="font-bold">Ma Playlist</h2>
                 </div>
-                <p className='w-[485px] text-sm max-lg:w-full'>
+                <p className='w-[485px] text-sm max-lg:w-full mb-7'>
                     Je partage avec vous ici ma playlist Spotify. Elle me permet de me concentrer et me faire rester dans le flow pendant mes sessions de codage.
                 </p>
                 <iframe 
                     style = {{
                         borderRadius: "12px"
                     }}
-                    className="w-[564px] max-xl:w-full"
+                    className="w-[480px] max-xl:w-full"
                     src="https://open.spotify.com/embed/playlist/45FT6uGyOpQCgNaqMNSB1I?utm_source=generator&theme=0" 
                     height="352" 
                     frameBorder="0" 
