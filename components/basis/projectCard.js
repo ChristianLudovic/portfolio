@@ -4,8 +4,11 @@ import ResponsiveImage from './responsiveImage'
 
 
 export default function ProjectCard({data}){
+
+
+
     return(
-        <div className='max-w-[340px] max-lg:max-w-full '>
+        <div className='max-w-[340px] max-lg:max-w-full' onClick={() => window.open(data.url, '_blank')}>
             <ResponsiveImage
                 src={data.imagePath}
                 alt={data.name || "Project image"}

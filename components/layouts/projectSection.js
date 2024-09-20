@@ -21,6 +21,7 @@ export default function ProjectSection(){
         window.open('https://github.com/ChristianLudovic/Convert-Me-Web-app', '_blank')
     }
 
+    
     const projects = [
         {
             imagePath: "/projects_images/subscribeThumbnail.png",
@@ -28,7 +29,7 @@ export default function ProjectSection(){
             tags: 'Laravel, React, Tailwindcss',
             name: 'Subscribe',
             description: "Conception et participation à l'intégration de l'application web Subscribe, qui permet aux utilisateurs de gérer facilement leurs abonnements (Netflix, Spotify, Deezer, etc.).",
-            redirect: 'https://subscribe-ui.vercel.app'
+            url: 'https://subscribe-ui.vercel.app'
             
         },
         {
@@ -37,7 +38,7 @@ export default function ProjectSection(){
             tags: 'Laravel, Livewire, Alpine.js, Tailwindcss',
             name: 'Scheddo',
             description: "Développement de l'application web Sheddo, qui permet aux utilisateurs de réserver des services (coiffure, barbier, manucure, pédicure, etc.) dans des boutiques spécialisées.",
-            redirect: 'https://github.com/ChristianLudovic/scheddo'
+            url: 'https://github.com/ChristianLudovic/scheddo'
             
         },
         
@@ -49,7 +50,7 @@ export default function ProjectSection(){
                 <div className='max-w-[1080px] mx-auto flex flex-col space-y-11 max-xl:max-w-[900px] max-lg:max-w-[700px]'>
                     <h1 className={`text-2xl font-bold tracking-[1px] font-meduim ${nohemi.className}`}>Mes projets</h1>
                     <div className='flex flex-col gap-8 max-lg:w-full'>
-                        <div className='flex gap-[30px] flex-wrap max-xl:gap-4 max-lg:flex-col max-lg-w-full max-lg:space-y-11'>
+                        <div className='flex gap-[30px] flex-wrap max-xl:gap-4 max-lg:flex-col max-lg-w-full max-lg:space-y-11' >
                             {projects.map((project, index) => (
                                 <ProjectCard key={index} data={project}/>
                             ))}
