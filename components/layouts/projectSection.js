@@ -41,6 +41,14 @@ export default function ProjectSection(){
             url: 'https://github.com/ChristianLudovic/scheddo'
             
         },
+        {
+            imagePath: "/projects_images/portfolioThumbnail.png",
+            type: 'Portfolio',
+            tags: 'Nextjs, Tailwindcss',
+            name: 'My portfolio',
+            description: "Conception et integration de mon portfolio personnel, qui présente mes compétences, mes projets et mes expériences professionnelles.",
+            url: 'https://chrisfaciledev.netlify.app'
+        }
         
     ]
 
