@@ -48,6 +48,14 @@ export default function ProjectSection(){
             name: 'My portfolio',
             description: "Conception et integration de mon portfolio personnel, qui présente mes compétences, mes projets et mes expériences professionnelles.",
             url: 'https://chrisfaciledev.netlify.app'
+        },
+        {
+            imagePath: "/projects_images/growThumbnail.png",
+            type: 'fun-project',
+            tags: 'Livewire, Alpine js, Laravel, Tailwindcss',
+            name: 'Growk',
+            description: "Développement de l'application web Growk, qui sert todo-list et permet aux utilisateurs de mieux organiser leur quotidien.",
+            url: 'https://github.com/ChristianLudovic/todo-list-in-laravel-and-livewire'
         }
         
     ]
