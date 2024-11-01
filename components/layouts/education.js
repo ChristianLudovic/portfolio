@@ -5,7 +5,7 @@ import localFont from 'next/font/local';
 
 const nohemi = localFont({ src: '../../public/font/Nohemi/Nohemi-Bold.ttf', display: 'swap'});
 
-export default function EductionSection(){
+export default function EductionSection({t}){
 
     const redirectBadjoun = () => {
         window.open('https://www.univ-dschang.org/iutfv-bandjoun/', '_blank')
@@ -20,7 +20,7 @@ export default function EductionSection(){
                             <h2 
                                 className={`text-2xl font-bold tracking-[1px] ${nohemi.className}`}
                             
-                            >Mon parcours scolaire</h2>   
+                            >{t('Heading1')}</h2>
                         </div>
                         <div className='space-y-8'>
                             <div className='flex items-start space-x-12 max-sm:space-x-8'>

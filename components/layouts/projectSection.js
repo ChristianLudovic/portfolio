@@ -33,6 +33,22 @@ export default function ProjectSection(){
             
         },
         {
+            imagePath: "/projects_images/calendarThumbnail.png",
+            type: 'Side-project',
+            tags: 'Laravel, Livewire, Alpine.js, Tailwindcss',
+            name: 'Calendar',
+            description: "Developpement d'un calendrier plutot authentique, qui permet aux utilisateurs de gerer facilement les dates de naissance de leurs proches.",
+            url: 'https://github.com/ChristianLudovic/calendar'
+        },
+        {
+            imagePath: "/projects_images/growThumbnail.png",
+            type: 'fun-project',
+            tags: 'Livewire, Alpine js, Laravel, Tailwindcss',
+            name: 'Growk',
+            description: "Développement de l'application web Growk, qui sert todo-list et permet aux utilisateurs de mieux organiser leur quotidien.",
+            url: 'https://github.com/ChristianLudovic/todo-list-in-laravel-and-livewire'
+        },
+        {
             imagePath: "/projects_images/scheddo-Thumbnail.png",
             type: 'Fun-project',
             tags: 'Laravel, Livewire, Alpine.js, Tailwindcss',
@@ -49,14 +65,7 @@ export default function ProjectSection(){
             description: "Conception et integration de mon portfolio personnel, qui présente mes compétences, mes projets et mes expériences professionnelles.",
             url: 'https://chrisfaciledev.netlify.app'
         },
-        {
-            imagePath: "/projects_images/growThumbnail.png",
-            type: 'fun-project',
-            tags: 'Livewire, Alpine js, Laravel, Tailwindcss',
-            name: 'Growk',
-            description: "Développement de l'application web Growk, qui sert todo-list et permet aux utilisateurs de mieux organiser leur quotidien.",
-            url: 'https://github.com/ChristianLudovic/todo-list-in-laravel-and-livewire'
-        }
+        
         
     ]
 

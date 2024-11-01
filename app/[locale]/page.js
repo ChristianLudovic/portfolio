@@ -1,33 +1,31 @@
 "use client"
 import "./globals.css";
-import Experience from "@/components/basis/experience";
 import HorizontalDivider from "@/components/basis/horizontalDivider";
-import MyStack from "@/components/basis/myStack";
 import NavBar from "@/components/basis/navBar";
-import Playlist from "@/components/basis/playlist";
 import EductionSection from "@/components/layouts/education";
 import Footer from "@/components/layouts/footer";
 import HeroSection from "@/components/layouts/heroSection";
 import ProjectSection from "@/components/layouts/projectSection";
 import StackExperiencePlaylistSection from "@/components/layouts/stackExperiencePlaylistSection";
-import Image from "next/image";
+import { useI18n, getScopedI18n } from '@/locales/client';
 
-export default function Home() {
+export default async function Home() {
+  const t = await useI18n()
   return (
     <>
     <div className="relative bg-black"> 
       <div className="body-wrapper max-sm:rounded-b-[80px]">
         <div className="body-wrapper-content">
           <NavBar />
-          <HeroSection />
+          <HeroSection t={t} />
           <HorizontalDivider />
-          <EductionSection />
-          <ProjectSection />
+          <EductionSection t={t}/>
+          <ProjectSection t={t}/>
           <HorizontalDivider />
-          <StackExperiencePlaylistSection />
+          <StackExperiencePlaylistSection t={t} />
         </div>
       </div>
-      <Footer />
+      <Footer t={t}/>
     </div>
     
     </>
