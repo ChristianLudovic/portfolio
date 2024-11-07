@@ -37,7 +37,7 @@ export default function LanguageSelector() {
       </button>
 
       {isOpen && (
-        <div className="origin-top-left max-sm:origin-top-right max-sm:right-0 absolute md:left-0 mt-3 w-max rounded-xl shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+        <div className="origin-top-left max-sm:origin-top-right max-md:right-0 absolute lg:left-0 mt-3 w-max rounded-xl shadow-lg bg-white ring-1 ring-black ring-opacity-5">
           <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             {languages.map((lang) => (
               <button
